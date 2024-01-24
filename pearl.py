@@ -37,14 +37,13 @@ employee4 = Employee("152K46", "Jaya", 32, 85000)
 
 employees_list = [employee1, employee2, employee3, employee4]
 
-# Create EmployeeTable object
 employee_table = EmployeeTable(employees_list)
 
-# Get user input for sorting option
+
 sorting_option = int(input("Choose sorting parameter (1. Age, 2. Name, 3. Salary): "))
 
-# Sort the table based on user input
+
 employee_table.sort_table(sorting_option)
 
-# Display the sorted table
+
 employee_table.display_table()
